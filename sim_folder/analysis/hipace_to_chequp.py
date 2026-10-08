@@ -108,7 +108,7 @@ class HipaceToChequpWriter:
         Loop over every iteration in z_list and collect:
           - electron temperature T_eV  (Nr x Nz)
           - ion weight density n_rz    per species (Nr x Nz)
-          
+
         Returns a dict with the same layout as species_field_hipace.json.
         """
         species_field = {}
