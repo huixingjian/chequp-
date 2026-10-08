@@ -42,13 +42,3 @@ runtime parameter to the simulation inputs file:
 .. code-block:: text
 
     problem.use_three_body_recombination = 0
-
-Set ``problem.use_three_body_recombination = 1`` to enable it again. When disabled,
-the three-body contribution in ``problem_source.H`` is set to zero without
-evaluating its rate, equivalent to manually setting ``Real three_body = 0``.
-Electron-impact ionization and excitation-ionization remain enabled, and the
-species and energy sources use the same net rate coefficient.
-
-This option applies to both single-temperature and two-temperature models in all
-supported dimensions. Recompile once after adding this option to the source code;
-subsequent changes to the input parameter do not require recompilation.
