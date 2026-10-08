@@ -32,13 +32,3 @@ For a standard or serial execution:
 .. code-block:: sh
 
     ../build/Castro2d.gnu.gamma_law.ex inputs.2d.cyl
-
-Three-body recombination
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-Three-body recombination is enabled by default. To disable it, add the following
-runtime parameter to the simulation inputs file:
-
-.. code-block:: text
-
-    problem.use_three_body_recombination = 0
