@@ -57,6 +57,7 @@ amr.plot_int        = 10
 # PROBLEM PARAMETERS
 problem.initial_conditions_file = "example_initial_conditions.csv"
 problem.p_ambient = 1.e-6
+problem.use_three_body_recombination = 1 # Set to 0 to disable three-body recombination
 problem.dens_ambient = 1.67e-6 # g per cm^3 ; H with 1e18 cc
 
 # PARAMETERS OF ARRHENIUS LAW FOR DIRECT IONIZATION
